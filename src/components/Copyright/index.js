@@ -6,7 +6,7 @@ const Copyright = () => {
     return (
         <>
             <CopyrightDiv>
-                <TextP>Copyright &copy; 2021 Uche's Portfolio. All Rights Reserved.</TextP>
+                <TextP> Copyright &copy; 2021 Uche's Portfolio. All Rights Reserved.</TextP>
             </CopyrightDiv>
         </>
     )
