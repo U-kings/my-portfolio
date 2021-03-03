@@ -21,7 +21,8 @@ export const AboutP = styled.p`
     /* height: 20rem; */
     /* overflow: hidden; */
     padding: .5rem 1rem;
-    background-color: rgba(255, 255, 0, .9);
+    /* background-color: rgba(255, 255, 0, .9); */
+    background-color: #ffc500;
     
     @media screen and (max-width: 768px){
         /* height: 25rem; */
