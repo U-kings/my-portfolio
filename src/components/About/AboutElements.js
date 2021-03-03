@@ -24,9 +24,14 @@ export const AboutP = styled.p`
     background-color: rgba(255, 255, 0, .9);
     
     @media screen and (max-width: 768px){
-        height: 25rem;
+        /* height: 25rem; */
         margin-bottom: 2rem;
-        font-size: 1.15rem;
+        font-size: 1.5rem;
+    }
+    
+    @media screen and (max-width: 400px){
+        margin-bottom: 2rem;
+        font-size: 1.22rem;
     }
 `;
 
@@ -35,12 +40,17 @@ export const ContextBox = styled.div`
         flex: 1;
         overflow: hidden;
         margin: auto 1rem;
-        padding: 1rem 0;
+        /* padding: 1rem 0; */
 
         @media screen and (max-width: 768px){
             flex: 100%;
-            flex-direction: column-reverse;  
+            flex-direction: column-reverse;
         }
+
+        @media screen and (max-width: 400px){
+            margin: 0;
+        }
+
 `;
 export const ImageContainer = styled.div`
     background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,.1)), url(${imgBg});
