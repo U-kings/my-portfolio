@@ -41,6 +41,9 @@ export const NavLogo = styled.div`
         align-self: center;
         background-color: #111;
     }
+    @media screen and (max-width: 400px){
+        padding: 1rem 1.2rem;
+    }
 `;
 export const NavItem = styled.ul`
     position: relative;
