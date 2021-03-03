@@ -58,7 +58,7 @@ export const NavItem = styled.ul`
         align-items: center;
         top: 0;
         /* width: 100%; */
-        margin-top: 4rem;
+        margin-top: 3.9rem;
         /* padding: 4rem 0; */
         padding: 0;
         background-color: rgba(0, 0, 0,.97);
