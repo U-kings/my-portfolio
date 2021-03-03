@@ -20,7 +20,6 @@ export const AboutP = styled.p`
     font-weight: 500;
     height: 20rem;
     overflow: hidden;
-    padding: 2rem;
     
     @media screen and (max-width: 768px){
         width: 100%;
@@ -31,8 +30,9 @@ export const AboutP = styled.p`
 
 export const ContextBox = styled.div`
         /* display: flex; */
-        flex: 50%;
+        flex: 45%;
         overflow: hidden;
+        margin: 1rem;
 
         @media screen and (max-width: 768px){
             flex: 100%;
@@ -41,7 +41,7 @@ export const ContextBox = styled.div`
 `;
 export const ImageContainer = styled.div`
     background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,.1)), url(${imgBg});
-    min-height: 25rem;
+    min-height: 20rem;
     /* min-width: 10rem; */
     background-size: cover;
     transition: .4s ease-in-out;
