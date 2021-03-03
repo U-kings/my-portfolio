@@ -20,6 +20,7 @@ export const AboutP = styled.p`
     font-weight: 500;
     height: 20rem;
     overflow: hidden;
+    padding: 2rem;
     
     @media screen and (max-width: 768px){
         width: 100%;
