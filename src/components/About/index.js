@@ -14,7 +14,8 @@ const About = () => {
                     <ContextBox >
                         <AboutH3>I'm a Software Engineer.</AboutH3>
                         <AboutP>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ut voluptatibus perferendis nesciunt ex quasi earum fuga exercitationem, nam accusamus repellendus nihil soluta quas facilis dolores sunt molestiae nemo maxime tempora voluptates nobis nostrum incidunt sint mollitia? Consectetur esse, id provident facilis fugiat odit commodi delectus eligendi, quam harum minima.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ut voluptatibus perferendis nesciunt ex quasi earum fuga exercitationem, nam accusamus repellendus nihil soluta quas facilis dolores sunt molestiae nemo maxime tempora voluptates nobis nostrum incidunt sint mollitia? 
+                        I love building awesome softwares. I've built different kinds of websites, from Landing pages, School and hospital management systems to e-commerce webapps. and even corporate software. If you are interested, you can view some of my favorite projects in my portfolio down below.
+                        Do you need something built or simply want to have a chat? Please do reach out to me on my social media or send me an email.
                         </AboutP>
                     </ContextBox>
                     <ContextBox>
