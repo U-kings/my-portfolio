@@ -24,4 +24,8 @@ export const ServicesBox = styled.div`
     &:hover{
         background: #2196f3;
     }
+
+    @media screen and (max-width: 768px){
+        max-width: 550px;
+    }
 `;
