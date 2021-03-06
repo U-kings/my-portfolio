@@ -1,6 +1,6 @@
 import React from 'react'
 import { CopyrightDiv } from './CopyrightElements';
-import { Container, TextP } from '../Library/library'
+import {TextP } from '../Library/library'
 
 const Copyright = () => {
     return (

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Navbar from '../Navbar';
-import {HeroContent, HeroH2, HeroH3, HeroBtn, Banner} from './HeroElements';
+import {HeroH2, HeroH3, HeroBtn, Banner} from './HeroElements';
 import { Container } from "../Library/library";
 
 const Hero = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeadingH2, Heading, Section } from '../Library/library';
-import { WorkContainer, ImageBox, WorkContent, WorkBox } from './WorkElements';
+import {ImageBox, WorkContent} from './WorkElements';
 
 const Work = () => {
     return (

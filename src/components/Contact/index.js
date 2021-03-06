@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Heading, HeadingH2, HeadingP, TextH3, TextP } from '../Library/library'
-import { ContactContent, FormBox, Form, InputTextAreaField, ContactButton, InputField, ContactInfo, Box, ContactInfoBox, InputTextField, ContactIcon, ContactText } from './ContactElements'
+import { ContactContent, FormBox, Form, InputTextAreaField, InputField, ContactInfo, Box, ContactInfoBox, ContactIcon, ContactText } from './ContactElements'
 import {FaMapMarkerAlt, FaPhone, FaEnvelope} from 'react-icons/fa'
 
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
             <Container className="contact">
                 <Heading>
                     <HeadingH2 className="white">Contact Us</HeadingH2>
-                    <HeadingP className="white">Lorem ipsum dolor sit a amet, consectetur adipisicing elit</HeadingP>
+                    <HeadingP className="white">Let's get in-touch.</HeadingP>
                 </Heading>
                 <ContactContent>
                     <ContactInfo>
@@ -19,21 +19,21 @@ function Contact() {
                                 <ContactIcon><FaMapMarkerAlt /></ContactIcon>
                                 <ContactText>
                                     <TextH3 className="contactH3">Address</TextH3>
-                                    <TextP>4671 Sugar Camp Road, <br /> Owatonna, Minnesota, <br />55060</TextP>
+                                    <TextP>23, Western Avenue Iponri, <br /> ,Surulere, Lagos <br />11011</TextP>
                                 </ContactText>
                             </Box>
                             <Box>
                                 <ContactIcon><FaPhone /></ContactIcon>
                                 <ContactText>
                                     <TextH3 className="contactH3">Phone</TextH3>
-                                    <TextP>506-873-3749</TextP>
+                                    <TextP>+234-807-232-4117</TextP>
                                 </ContactText>
                             </Box>
                             <Box>
                                 <ContactIcon><FaEnvelope /></ContactIcon>
                                 <ContactText>
                                     <TextH3 className="contactH3">Email</TextH3>
-                                    <TextP>portfolio@gmail.ocm</TextP>
+                                    <TextP>kingsleyigbokwe909@gmail.ocm</TextP>
                                 </ContactText>
                             </Box>
                         </ContactInfoBox>
