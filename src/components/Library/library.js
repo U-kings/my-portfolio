@@ -5,8 +5,9 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-    max-height: 100%;
-    padding: 100px;
+    max-height: 100;
+    width: 100%;
+    /* background-color: red; */
     /* padding: 0rem calc((100vw - 1300px) /2); */
 
     &.testimonial{
@@ -51,10 +52,12 @@ export const Heading = styled.div`
 export const HeadingH2 = styled.h2`
     font-weight: 700;
     font-size: 2rem;
-    color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 
     &.white{
-        padding-top: 0rem;
+        padding: 0;
         margin: 0;
         color: #fff;
     }

@@ -7,11 +7,11 @@ function App() {
     <Router>
       <Hero />
       <About />
-      <Services />
-      <Work />
-      <Testimonial />
-      <Contact />
-      <Copyright />
+      {/* <Services /> */}
+      {/* <Work /> */}
+      {/* <Testimonial /> */}
+      {/* <Contact /> */}
+      {/* <Copyright /> */}
     </Router>
   );
 }

@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 import imgBg from '../../images/product-2.jpg';
 
+export const AboutSection = styled.div`
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+`;
+
+
 export const AboutContent = styled.div`
     display: flex;
     flex-wrap: wrap;

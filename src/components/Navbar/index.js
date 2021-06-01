@@ -20,6 +20,7 @@ const Navbar = ({isOpen, toggle}) =>{
                 <NavItem isOpen={isOpen} onClick={toggle}>
                     <NavList><NavLink to="/">Home</NavLink></NavList>
                     <NavList><NavLink to="/">About</NavLink></NavList>
+                    <NavList><NavLink to="/">Skills</NavLink></NavList>
                     <NavList><NavLink to="/">Services</NavLink></NavList>
                     <NavList><NavLink to="/">Testimonial</NavLink></NavList>
                     <NavList><NavLink className="last-link" to="/">Contact</NavLink></NavList>

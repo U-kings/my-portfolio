@@ -19,6 +19,7 @@ export const Nav = styled.nav`
         background: #000;
         padding: 20px 100px;
     } */
+    
 `;
 
 export const NavLogo = styled.div`
@@ -42,7 +43,7 @@ export const NavLogo = styled.div`
         background-color: #111;
     }
     @media screen and (max-width: 400px){
-        padding: 1rem 1.2rem;
+        padding: 1rem 3rem;
     }
 `;
 export const NavItem = styled.ul`
