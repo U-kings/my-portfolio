@@ -5,15 +5,15 @@ import { AboutSection, AboutContent, ContextBox, AboutH3, AboutP, ImageContainer
 const About = () => {
     return (
         <>
-        <AboutSection>
             <Container>
+                <AboutSection>
                     <Heading>
                         <HeadingH2>About Me</HeadingH2>
-                        <HeadingP>My introduction</HeadingP>
+                        <HeadingP>My Introduction</HeadingP>
                     </Heading>
                     <AboutContent>
-                        <ContextBox>
-                            <ImageContainer className="rotate"></ImageContainer>
+                        <ContextBox >
+                            <ImageContainer></ImageContainer>
                         </ContextBox>
                         <ContextBox >
                             <AboutH3>I'm a Software Engineer.</AboutH3>
@@ -24,8 +24,8 @@ const About = () => {
                             </AboutP>
                         </ContextBox>
                     </AboutContent>
-            </Container>
         </AboutSection>
+            </Container>
         </>
     )
 }

@@ -6,7 +6,7 @@ export const Section = styled.section`
 
 export const Container = styled.div`
     max-height: 100;
-    width: 100%;
+    /* width: 100%; */
     /* background-color: red; */
     /* padding: 0rem calc((100vw - 1300px) /2); */
 
@@ -17,7 +17,7 @@ export const Container = styled.div`
     &.contact{
         background-color: #111;
     }
-
+/* 
     @media screen and (max-width: 768px){
         padding: 30px;
     }
@@ -26,7 +26,7 @@ export const Container = styled.div`
     }
     @media screen and (max-width: 300px){
         padding: 15px;
-    }
+    } */
     
 `
 
@@ -96,8 +96,9 @@ export const TextP = styled.p`
 `;
 
 export const HeadingP = styled.p`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
+    color: #777;
     
     &.white{
         padding: 0 1rem;

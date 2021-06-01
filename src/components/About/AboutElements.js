@@ -1,10 +1,15 @@
 import styled from 'styled-components';
-import imgBg from '../../images/product-2.jpg';
+import imgBg from '../../images/pic2.jpg';
 
 export const AboutSection = styled.div`
     background-color: #111;
     margin: 0;
-    padding: 0;
+    padding: 5rem;
+
+    @media screen and (max-width: 768px){
+        padding: 2.1rem;
+        margin: 0;
+    }
 `;
 
 
@@ -21,15 +26,17 @@ export const AboutContent = styled.div`
 export const AboutH3 = styled.h3`
     font-size: 2rem;
     margin: 0 1rem;
+    color: #e31837;
 `;
 export const AboutP = styled.p`
     font-size: 1.2rem;
-    font-weight: 500;
-    /* height: 20rem; */
+    font-weight: 400;
+    line-height: 1.8rem;
     /* overflow: hidden; */
     padding: .5rem 1rem;
+    color: #999;
     /* background-color: rgba(255, 255, 0, .9); */
-    background-color: #ffc500;
+    background-color: #222;
     
     @media screen and (max-width: 768px){
         /* height: 25rem; */
@@ -60,10 +67,16 @@ export const ContextBox = styled.div`
         }
 
 `;
+
 export const ImageContainer = styled.div`
-    background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,.1)), url(${imgBg});
+    background-image: url(${imgBg});
+    background-repeat: no-repeat;
     min-height: 24rem;
-    background-size: cover;
+    background-size: 35rem;
+    background-position-x: 0;
+    background-position-y: -3rem;
+    border-radius: 50px;
+    
     transition: .3s ease-in-out;
         transform: scale(1.1);
     
