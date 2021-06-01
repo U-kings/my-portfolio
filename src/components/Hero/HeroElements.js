@@ -149,7 +149,7 @@ export const IconContainer = styled.div`
 export const HeroSection = styled.div`
     /* background-image: linear-gradient(to right, rgba(0,0,0,.7),rgba(0,0,0,.1)), url(${imgBg}); */
     min-height: 100vh;
-    background-color: transparent;
+    background-color: #111;
     width: 100%;
     /* background-position: left; */
     /* background-size: cover; */
