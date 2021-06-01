@@ -29,7 +29,7 @@ export const AboutH3 = styled.h3`
     color: #e31837;
 `;
 export const AboutP = styled.p`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.8rem;
     /* overflow: hidden; */
