@@ -77,12 +77,12 @@ export const ImageContainer = styled.div`
     background-position-y: -3rem;
     border-radius: 50px;
     
-    transition: .3s ease-in-out;
+    transition: .35s ease-out;
         transform: scale(1.1);
     
 
     &:hover{
         /* -webkit-transform: scale(1.1) rotate(45deg); */
-        transform: scale(1.2);
+        transform: scale(1.14);
     }
 `;

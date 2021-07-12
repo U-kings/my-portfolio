@@ -24,7 +24,7 @@ const About = () => {
                             </AboutP>
                         </ContextBox>
                     </AboutContent>
-        </AboutSection>
+                </AboutSection>
             </Container>
         </>
     )

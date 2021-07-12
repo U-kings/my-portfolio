@@ -62,8 +62,10 @@ export const NavItem = styled.ul`
         margin-top: 3.7rem;
         /* padding: 4rem 0; */
         padding: 0;
-        background-color: rgba(0, 0, 0,.97);
+        /* background-color: #111; */
+        background-color: rgba(15, 15, 15,.97);
         /* left: 0; */
+        bottom: 0;
         transition: .3s ease-in-out;
         left: ${({isOpen}) => (isOpen ? '0' : '1000px')};
         right: ${({isOpen}) => (isOpen ? '0' : '-1000px')};
